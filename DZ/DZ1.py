@@ -9,18 +9,18 @@ def InputNumbers(inputText):
             number = int(input(f"{inputText}"))
             is_OK = True
         except ValueError:
-            print("Не правильно!")
+            print("Не понял!")
     return number
 
 
 def checkNumber(num):
     if 6 <= num <= 7:
-        print("Снова Выходной!")
+        print("Ура Выхдной")
     elif 0 < num < 6:
         print("Ура рабочий день")
     else:
         print("Неделя это 7 дней")
 
 
-num = InputNumbers("Введите число:")
+num = InputNumbers("Введите число: ")
 checkNumber(num)
