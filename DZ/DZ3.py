@@ -9,14 +9,14 @@ def inputKoord(x):
         is_OK = False
         while not is_OK:
             try:
-                number = float(input(f"Введите  координату {i+1}: "))
+                number = float(input(f"Введи координату {i+1}: "))
                 a[i] = number
                 is_OK = True
                 if a[i] == 0:
                     is_OK = False
                     print("Координата не должно быть равна 0 ")
             except ValueError:
-                print("Ты ошибся. Вводить надо числа!")
+                print("Ты ошибся. Нужно вводить числа!")
     return a
 
 
