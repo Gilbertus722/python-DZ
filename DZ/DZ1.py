@@ -15,7 +15,7 @@ def InputNumbers(inputText):
 
 def checkNumber(num):
     if 6 <= num <= 7:
-        print("Ура Выхдной")
+        print("Выхдной")
     elif 0 < num < 6:
         print("Ура рабочий день")
     else:
