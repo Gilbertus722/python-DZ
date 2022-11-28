@@ -3,8 +3,7 @@
 
 import random
 
-list_number_of_elements = int(
-    input("Количество элементов (целое положительное число): \n"))
+list_number_of_elements = int(input("Количество элементов (целое положительное число): \n"))
 if list_number_of_elements <= 0:
     print("Введено отрицательное число")
 
